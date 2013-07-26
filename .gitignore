@@ -6,3 +6,8 @@ Temp
 *.unityproj
 *.sln
 *.userprefs
+Library/assetDatabase3
+
+Assets/.DS_Store
+
+Library/guidmapper
