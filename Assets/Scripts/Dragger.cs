@@ -4,6 +4,7 @@ using System.Collections;
 public class Dragger : MonoBehaviour
 {
 	private const float IDLE_TIME = 0.2f;
+	private const float DRAG_HEIGHT = 0.8f;
 	
 	public bool dragging { get { return !m_idle; } }
 	
@@ -45,7 +46,7 @@ public class Dragger : MonoBehaviour
 		m_idle = false;
 		m_idleTime = IDLE_TIME;
 		
-		_position.y = transform.position.y;
+		_position.y += DRAG_HEIGHT;
 		transform.position = _position;
 	}
 }

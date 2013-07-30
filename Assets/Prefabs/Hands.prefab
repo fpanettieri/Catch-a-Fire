@@ -11,7 +11,7 @@ GameObject:
   - 136: {fileID: 13600000}
   - 114: {fileID: 11400000}
   - 54: {fileID: 5400000}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Finger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ GameObject:
   - 136: {fileID: 13600002}
   - 114: {fileID: 11400002}
   - 54: {fileID: 5400002}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Finger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   - 136: {fileID: 13600004}
   - 114: {fileID: 11400004}
   - 54: {fileID: 5400004}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Finger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   - 136: {fileID: 13600006}
   - 114: {fileID: 11400006}
   - 54: {fileID: 5400006}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Finger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ GameObject:
   - 136: {fileID: 13600008}
   - 114: {fileID: 11400008}
   - 54: {fileID: 5400008}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Finger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - 136: {fileID: 13600010}
   - 114: {fileID: 11400010}
   - 54: {fileID: 5400010}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Finger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - 136: {fileID: 13600012}
   - 114: {fileID: 11400012}
   - 54: {fileID: 5400012}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Finger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   - 136: {fileID: 13600014}
   - 114: {fileID: 11400014}
   - 54: {fileID: 5400014}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Finger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ GameObject:
   - 136: {fileID: 13600016}
   - 114: {fileID: 11400016}
   - 54: {fileID: 5400016}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Finger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - 54: {fileID: 5400018}
   - 114: {fileID: 11400018}
   - 59: {fileID: 5900000}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Dragger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - 54: {fileID: 5400020}
   - 114: {fileID: 11400020}
   - 59: {fileID: 5900002}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Dragger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   - 54: {fileID: 5400022}
   - 114: {fileID: 11400022}
   - 59: {fileID: 5900004}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Dragger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   - 54: {fileID: 5400024}
   - 114: {fileID: 11400024}
   - 59: {fileID: 5900006}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Dragger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   - 54: {fileID: 5400026}
   - 114: {fileID: 11400026}
   - 59: {fileID: 5900008}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Dragger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   - 54: {fileID: 5400028}
   - 114: {fileID: 11400028}
   - 59: {fileID: 5900010}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Dragger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ GameObject:
   - 54: {fileID: 5400030}
   - 114: {fileID: 11400030}
   - 59: {fileID: 5900012}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Dragger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   - 54: {fileID: 5400032}
   - 114: {fileID: 11400032}
   - 59: {fileID: 5900014}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Dragger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   - 54: {fileID: 5400034}
   - 114: {fileID: 11400034}
   - 59: {fileID: 5900016}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Dragger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - 136: {fileID: 13600018}
   - 114: {fileID: 11400036}
   - 54: {fileID: 5400036}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Finger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400038}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Fingers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,7 +365,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400040}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Draggers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +381,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400042}
   - 114: {fileID: 11400038}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Hands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +399,7 @@ GameObject:
   - 54: {fileID: 5400038}
   - 114: {fileID: 11400040}
   - 59: {fileID: 5900018}
-  m_Layer: 11
+  m_Layer: 20
   m_Name: Dragger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -512,7 +512,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400040}
@@ -523,7 +523,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400040}
@@ -534,7 +534,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400040}
@@ -545,7 +545,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400040}
@@ -556,7 +556,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400040}
@@ -567,7 +567,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400040}
@@ -578,7 +578,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400040}
@@ -589,7 +589,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400040}
@@ -600,7 +600,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400040}
@@ -677,7 +677,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400040}
@@ -1513,7 +1513,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: .300000012
+  m_Radius: .5
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 5, z: 0}
@@ -1526,7 +1526,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: .300000012
+  m_Radius: .5
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 5, z: 0}
@@ -1539,7 +1539,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: .300000012
+  m_Radius: .5
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 5, z: 0}
@@ -1552,7 +1552,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: .300000012
+  m_Radius: .5
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 5, z: 0}
@@ -1565,7 +1565,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: .300000012
+  m_Radius: .5
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 5, z: 0}
@@ -1578,7 +1578,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: .300000012
+  m_Radius: .5
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 5, z: 0}
@@ -1591,7 +1591,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: .300000012
+  m_Radius: .5
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 5, z: 0}
@@ -1604,7 +1604,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: .300000012
+  m_Radius: .5
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 5, z: 0}
@@ -1617,7 +1617,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: .300000012
+  m_Radius: .5
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 5, z: 0}
@@ -1630,7 +1630,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  m_Radius: .300000012
+  m_Radius: .5
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 5, z: 0}

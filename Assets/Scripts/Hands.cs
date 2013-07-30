@@ -10,8 +10,8 @@ public class Hands : MonoBehaviour
 	private RaycastHit m_hit;
 	private Draggable m_draggable;
 	
-	private const int OBJECTS_MASK = 1 << 10 | 1 << 9;
-	private const int ROOM_MASK = 1 << 8;
+	private const int OBJECTS_MASK = 1 << 14 | 1 << 17;
+	private const int DRAG_MASK = 1 << 11;
 	
 	public void Update ()
 	{
@@ -80,7 +80,7 @@ public class Hands : MonoBehaviour
 	
 	private void Drag(Ray _ray, int _fingerId)
 	{
-		Physics.Raycast(m_ray, out m_hit, 100, ROOM_MASK);
+		Physics.Raycast(m_ray, out m_hit, 100, DRAG_MASK);
 		Debug.DrawLine (m_ray.origin, m_hit.point);
 		
 		Dragger dragger = m_draggers[_fingerId].GetComponent<Dragger>();
@@ -96,7 +96,7 @@ public class Hands : MonoBehaviour
 	
 	private void Push(Ray _ray, int _fingerId)
 	{
-		Physics.Raycast(m_ray, out m_hit, 100, ROOM_MASK);
+		Physics.Raycast(m_ray, out m_hit, 100, DRAG_MASK);
 		Debug.DrawLine (m_ray.origin, m_hit.point);
 		
 		Finger finger = m_fingers[_fingerId].GetComponent<Finger>();
