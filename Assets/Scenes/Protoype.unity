@@ -1275,8 +1275,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1471423355}
   - 54: {fileID: 1471423356}
-  - 145: {fileID: 1471423357}
   - 114: {fileID: 1471423358}
+  - 59: {fileID: 1471423357}
   m_Layer: 11
   m_Name: Dragger
   m_TagString: Untagged
@@ -1291,7 +1291,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1471423354}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 239820440}
@@ -1311,19 +1311,31 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!145 &1471423357
-SpringJoint:
+--- !u!59 &1471423357
+HingeJoint:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 14500000, guid: e4470ad494ae646d396fed66ae422ba1,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1471423354}
   m_ConnectedBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Spring: 50
-  m_Damper: 5
-  m_MinDistance: 0
-  m_MaxDistance: .200000003
+  m_Axis: {x: 1, y: 0, z: 0}
+  m_UseSpring: 1
+  m_Spring:
+    spring: 20
+    damper: 0
+    targetPosition: 0
+  m_UseMotor: 0
+  m_Motor:
+    targetVelocity: 0
+    force: 0
+    freeSpin: 0
+  m_UseLimits: 0
+  m_Limits:
+    min: 0
+    max: 0
+    minBounce: 0
+    maxBounce: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
 --- !u!114 &1471423358

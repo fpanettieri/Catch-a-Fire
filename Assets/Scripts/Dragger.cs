@@ -9,12 +9,12 @@ public class Dragger : MonoBehaviour
 	
 	private bool m_idle;
 	private float m_idleTime;
-	private SpringJoint m_joint;
+	private HingeJoint m_joint;
 	
 	public void Start ()
 	{
 		m_idle = true;
-		m_joint = GetComponent<SpringJoint>();
+		m_joint = GetComponent<HingeJoint>();
 	}
 	
 	public void Update ()
@@ -30,12 +30,14 @@ public class Dragger : MonoBehaviour
 	
 	public void Grab(Draggable _draggable, Vector3 _position)
 	{
-		m_idle = false;
-		m_idleTime = IDLE_TIME;
+		Drag(_position);
+		
+		Vector3 position = _draggable.transform.position;
+		_draggable.transform.position = transform.position;
+		
 		m_joint.connectedBody = _draggable.rigidbody;
 		
-		_position.y = transform.position.y;
-		transform.position = _position;
+		_draggable.transform.position = position;
 	}
 	
 	public void Drag(Vector3 _position)
