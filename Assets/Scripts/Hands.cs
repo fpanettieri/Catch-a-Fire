@@ -75,6 +75,7 @@ public class Hands : MonoBehaviour
 	private bool ShouldPush(Ray _ray, int _fingerId, TouchPhase _phase)
 	{
 		if( _fingerId >= m_fingers.Length ){ return false; }
+		if( _phase == TouchPhase.Ended ){ return false; }
 		return true;
 	}
 	
