@@ -46,7 +46,7 @@ public class Dragger : MonoBehaviour
 		m_idle = false;
 		m_idleTime = IDLE_TIME;
 		
-		_position.y += DRAG_HEIGHT;
+		//_position.y += DRAG_HEIGHT;
 		transform.position = _position;
 	}
 }
