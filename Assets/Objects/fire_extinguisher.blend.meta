@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: 79b4677cbef61440aad42ad71730bd90
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Cylinder_001
+    100002: Cylinder_002
+    100004: Cylinder_003
+    100006: Empty
+    100008: Fire_extinguisher
+    100010: //RootNode
+    100012: Fire_extinguisher_sign
+    100014: Ground
+    100016: Ground_001
+    100018: Light_emitter
+    100020: Scale_reference
+    400000: Cylinder_001
+    400002: Cylinder_002
+    400004: Cylinder_003
+    400006: Empty
+    400008: Fire_extinguisher
+    400010: //RootNode
+    400012: Fire_extinguisher_sign
+    400014: Ground
+    400016: Ground_001
+    400018: Light_emitter
+    400020: Scale_reference
+    2300000: Cylinder_001
+    2300002: Cylinder_002
+    2300004: Cylinder_003
+    2300006: Fire_extinguisher
+    2300008: Fire_extinguisher_sign
+    2300010: Ground
+    2300012: Ground_001
+    2300014: Light_emitter
+    2300016: Scale_reference
+    2300018: //RootNode
+    3300000: Cylinder_001
+    3300002: Cylinder_002
+    3300004: Cylinder_003
+    3300006: Fire_extinguisher
+    3300008: Fire_extinguisher_sign
+    3300010: Ground
+    3300012: Ground_001
+    3300014: Light_emitter
+    3300016: Scale_reference
+    3300018: //RootNode
+    4300000: Scale_reference
+    4300002: Ground_001
+    4300004: Ground
+    4300006: Fire_extinguisher
+    4300008: Fire_extinguisher_sign
+    4300010: Cylinder_003
+    4300012: Cylinder_002
+    4300014: Cylinder_001
+    4300016: Light_emitter
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 

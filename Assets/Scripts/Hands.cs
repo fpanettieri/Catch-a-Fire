@@ -67,9 +67,10 @@ public class Hands : MonoBehaviour
 		Physics.Raycast(m_ray, out m_hit, 100, OBJECTS_MASK);
 		Debug.DrawLine (m_ray.origin, m_hit.point);
 		
-		if(m_hit.collider == null) { return false; }
+		Transform parent = m_hit.collider.gameObject.transform.parent;
+		if(parent  == null) { return false; }
 		
-		m_draggable = m_hit.collider.gameObject.GetComponent<Draggable>();
+		m_draggable = parent.gameObject.GetComponent<Draggable>();
 		return m_draggable != null;
 	}
 	
