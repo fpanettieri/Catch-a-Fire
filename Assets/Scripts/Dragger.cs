@@ -10,12 +10,12 @@ public class Dragger : MonoBehaviour
 	
 	private bool m_idle;
 	private float m_idleTime;
-	private HingeJoint m_joint;
+	private ConfigurableJoint m_joint;
 	
 	public void Start ()
 	{
 		m_idle = true;
-		m_joint = GetComponent<HingeJoint>();
+		m_joint = GetComponent<ConfigurableJoint>();
 	}
 	
 	public void Update ()
@@ -33,12 +33,13 @@ public class Dragger : MonoBehaviour
 	{
 		Drag(_position);
 		
-		Vector3 position = _draggable.transform.position;
-		_draggable.transform.position = transform.position;
 		
+		// TODO: grab at the touched point
+		Vector3 position = transform.position;
+		transform.position = _position;
 		m_joint.connectedBody = _draggable.rigidbody;
 		
-		_draggable.transform.position = position;
+		transform.position = position;
 	}
 	
 	public void Drag(Vector3 _position)
