@@ -4,7 +4,6 @@ using System.Collections;
 public class Dragger : MonoBehaviour
 {
 	private const float IDLE_TIME = 0.2f;
-	private const float DRAG_HEIGHT = 0.8f;
 	
 	public bool dragging { get { return !m_idle; } }
 	
@@ -17,7 +16,7 @@ public class Dragger : MonoBehaviour
 		m_idle = true;
 		m_joint = GetComponent<ConfigurableJoint>();
 	}
-	
+
 	public void Update ()
 	{
 		if(m_idle){ return; }
@@ -33,13 +32,8 @@ public class Dragger : MonoBehaviour
 	{
 		Drag(_position);
 		
-		
-		// TODO: grab at the touched point
-		Vector3 position = transform.position;
-		transform.position = _position;
+		_draggable.rigidbody.position = transform.position;
 		m_joint.connectedBody = _draggable.rigidbody;
-		
-		transform.position = position;
 	}
 	
 	public void Drag(Vector3 _position)
@@ -47,7 +41,6 @@ public class Dragger : MonoBehaviour
 		m_idle = false;
 		m_idleTime = IDLE_TIME;
 		
-		//_position.y += DRAG_HEIGHT;
 		transform.position = _position;
 	}
 }

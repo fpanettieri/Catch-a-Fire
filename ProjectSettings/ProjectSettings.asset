@@ -8,7 +8,7 @@ PlayerSettings:
   defaultScreenOrientation: 3
   targetDevice: 2
   targetGlesGraphics: 1
-  targetResolution: 0
+  targetResolution: 7
   accelerometerFrequency: 0
   companyName: DefaultCompany
   productName: Catch a Fire
@@ -76,7 +76,7 @@ PlayerSettings:
   AndroidMinSdkVersion: 6
   AndroidPreferredInstallLocation: 1
   aotOptions: 
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 1
   ForceInternetPermission: 0

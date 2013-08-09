@@ -6,6 +6,9 @@ public class Hands : MonoBehaviour
 	public GameObject[] m_fingers;
 	public GameObject[] m_draggers;
 	
+	public bool m_mouseEnabled;
+	public bool m_touchEnabled;
+	
 	private Ray m_ray;
 	private RaycastHit m_hit;
 	private Draggable m_draggable;
@@ -14,7 +17,23 @@ public class Hands : MonoBehaviour
 	private const int PUSH_MASK = 1 << 11;
 	private const int DRAG_MASK = 1 << 12;
 	
+	public void Start()
+	{
+		Input.simulateMouseWithTouches = true;	
+	}
+	
 	public void Update ()
+	{
+		if(m_mouseEnabled){
+			MouseInput();
+		}
+		
+		if(m_touchEnabled){
+			TouchInput();
+		}
+	}
+	
+	private void MouseInput()
 	{
 		if(Input.GetMouseButtonDown(0)){
 			m_ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -28,7 +47,10 @@ public class Hands : MonoBehaviour
 			m_ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			ProcessTouch(m_ray, 0, TouchPhase.Moved);
 		}
-		
+	}
+	
+	private void TouchInput()
+	{
 		foreach(Touch touch in Input.touches) {
 			m_ray = Camera.main.ScreenPointToRay(touch.position);
 			ProcessTouch(m_ray, touch.fingerId, touch.phase);
@@ -64,8 +86,7 @@ public class Hands : MonoBehaviour
 		if( _fingerId >= m_draggers.Length ){ return false; }
 		if( _phase != TouchPhase.Began ){ return false; }
 		
-		Physics.Raycast(m_ray, out m_hit, 100, OBJECTS_MASK);
-		Debug.DrawLine (m_ray.origin, m_hit.point);
+		if( !Physics.Raycast(m_ray, out m_hit, 100, OBJECTS_MASK) ) { return false; }
 		
 		Transform parent = m_hit.collider.gameObject.transform.parent;
 		if(parent  == null) { return false; }
@@ -83,8 +104,7 @@ public class Hands : MonoBehaviour
 	
 	private void Drag(Ray _ray, int _fingerId)
 	{
-		Physics.Raycast(m_ray, out m_hit, 100, DRAG_MASK);
-		Debug.DrawLine (m_ray.origin, m_hit.point);
+		if( !Physics.Raycast(m_ray, out m_hit, 100, DRAG_MASK) ) { return; }
 		
 		Dragger dragger = m_draggers[_fingerId].GetComponent<Dragger>();
 		dragger.Drag(m_hit.point);
@@ -99,8 +119,7 @@ public class Hands : MonoBehaviour
 	
 	private void Push(Ray _ray, int _fingerId)
 	{
-		Physics.Raycast(m_ray, out m_hit, 100, PUSH_MASK);
-		Debug.DrawLine (m_ray.origin, m_hit.point);
+		if( !Physics.Raycast(m_ray, out m_hit, 100, PUSH_MASK) ) { return; }
 		
 		Finger finger = m_fingers[_fingerId].GetComponent<Finger>();
 		finger.Move(m_hit.point);
