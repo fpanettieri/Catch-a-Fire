@@ -32,8 +32,10 @@ public class Dragger : MonoBehaviour
 	{
 		Drag(_position);
 		
-		_draggable.rigidbody.position = transform.position;
+		Vector3 position = transform.position;
+		transform.position = _position;
 		m_joint.connectedBody = _draggable.rigidbody;
+		transform.position = position;
 	}
 	
 	public void Drag(Vector3 _position)
