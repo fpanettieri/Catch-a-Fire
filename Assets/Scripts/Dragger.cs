@@ -25,6 +25,7 @@ public class Dragger : MonoBehaviour
 		if(m_idleTime > 0){ return; }
 		
 		m_idle = true;
+		m_joint.connectedBody.AddForce(0, -30, 0);
 		m_joint.connectedBody = null;
 	}
 	
