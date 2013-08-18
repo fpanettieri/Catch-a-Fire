@@ -8,7 +8,7 @@ public class Extinguisher : MonoBehaviour
 	public void Start()
 	{
 		m_lastHit = 0;
-		rigidbody.centerOfMass = new Vector3(0, 1, 0);
+		rigidbody.centerOfMass = new Vector3(0, 0.5f, 0);
 	}
 
 	public void OnCollisionEnter()
