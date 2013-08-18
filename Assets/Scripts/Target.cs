@@ -4,14 +4,6 @@ using System.Collections;
 public class Target : MonoBehaviour
 {
 	private Extinguisher m_extinguisher;
-	private Quaternion m_rotation;
-	
-	public void FixedUpdate()
-	{
-		if( m_extinguisher == null) { return; }
-		m_rotation = Quaternion.Lerp(m_extinguisher.transform.rotation, Quaternion.identity, 0.1f);
-		m_extinguisher.transform.rotation = m_rotation;
-	}
 	
 	public void OnTriggerEnter(Collider other)
 	{
