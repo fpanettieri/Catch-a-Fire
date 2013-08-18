@@ -10,6 +10,7 @@ public class Dragger : MonoBehaviour
 	private bool m_idle;
 	private float m_idleTime;
 	private ConfigurableJoint m_joint;
+	private Draggable m_draggable;
 	
 	public void Start ()
 	{
@@ -27,6 +28,8 @@ public class Dragger : MonoBehaviour
 		m_idle = true;
 		m_joint.connectedBody.AddForce(0, -30, 0);
 		m_joint.connectedBody = null;
+		
+		m_draggable.dragger = null;
 	}
 	
 	public void Grab(Draggable _draggable, Vector3 _position)
@@ -37,6 +40,9 @@ public class Dragger : MonoBehaviour
 		transform.position = _position;
 		m_joint.connectedBody = _draggable.rigidbody;
 		transform.position = position;
+		
+		m_draggable = _draggable;
+		m_draggable.dragger = this;
 	}
 	
 	public void Drag(Vector3 _position)

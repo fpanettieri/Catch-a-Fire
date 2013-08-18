@@ -3,6 +3,7 @@
 --- !u!78 &1
 TagManager:
   tags:
+  - Extinguisher
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   User Layer 18: 
   User Layer 19: 
   User Layer 20: Helpers
-  User Layer 21: 
+  User Layer 21: Targets
   User Layer 22: 
   User Layer 23: 
   User Layer 24: 
