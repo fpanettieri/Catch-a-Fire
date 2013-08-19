@@ -24,6 +24,8 @@ public class Shadow : MonoBehaviour
 		transform.position = m_position;
 		
 		m_size = Mathf.Clamp( 1 - m_target.position.y * 0.2f , 0.5f, 1f);
+		m_size *= m_target.up.y;
+		
 		m_scale.Set(m_size, 1, m_size);
 		transform.localScale = m_scale;
 	}
