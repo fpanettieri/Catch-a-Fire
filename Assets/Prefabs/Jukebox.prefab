@@ -100,6 +100,7 @@ MonoBehaviour:
   m_musics:
   - {fileID: 8300000, guid: 4ec6204557c034f8aa71da6258bb3c5d, type: 3}
   - {fileID: 8300000, guid: 4ec6204557c034f8aa71da6258bb3c5d, type: 3}
+  - {fileID: 8300000, guid: 4ec6204557c034f8aa71da6258bb3c5d, type: 3}
   - {fileID: 8300000, guid: 80cfd166bd7c843bba320683bfa13abc, type: 3}
 --- !u!1001 &100100000
 Prefab:

@@ -41,6 +41,7 @@ public class LevelButton : MonoBehaviour
 	public void OnClick ()
 	{
 		if (string.IsNullOrEmpty(m_levelName)){ return; }
-		Application.LoadLevel(m_levelName);
+		PlayerPrefs.SetString( "CurrentLevel", m_levelName );
+		Application.LoadLevel( "Loading" );
 	}
 }
