@@ -10,6 +10,6 @@ PhysicsManager:
   m_SleepAngularVelocity: .140000001
   m_MaxAngularVelocity: 7
   m_MinPenetrationForPenalty: .00999999978
-  m_SolverIterationCount: 3
+  m_SolverIterationCount: 5
   m_RaycastsHitTriggers: 1
   m_LayerCollisionMatrix: e820c9fde820c9fde820c9fdffffffffe820c9fdffffffffffffffffffffffffe8e6cbfde8ffffffe8f7ffffe822c9fde826c9fdffffffffe8e7ebfde8e7fffdffffffffe8e7cbfde8a6e9fdffffffffe8a6c9fde8e6cdfdffffffffffffffffffffffffe826c9fdffffffffffffffffffffffffffffffffffffffffffffffff

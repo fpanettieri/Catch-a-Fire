@@ -3,8 +3,11 @@ using System.Collections;
 
 public class Timer : MonoBehaviour
 {
-	public int m_time;
+	// injected dependency
 	public UILabel m_label;
+	
+	// configuration
+	public int m_time;
 	
 	public void Start()
 	{
