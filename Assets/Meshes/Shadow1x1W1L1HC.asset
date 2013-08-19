@@ -5,7 +5,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Plane1x1W2L2HC
+  m_Name: Shadow1x1W1L1HC
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -16,7 +16,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 1, y: 0, z: 1}
+      m_Extent: {x: .5, y: 0, z: .5}
   m_Shapes: []
   m_ShapeVertices: []
   m_MeshCompression: 0
@@ -28,7 +28,7 @@ Mesh:
   m_Skin: []
   m_BindPose: []
   m_VertexData:
-    m_CurrentChannels: 15
+    m_CurrentChannels: 11
     m_VertexCount: 4
     m_Channels:
     - stream: 0
@@ -40,11 +40,11 @@ Mesh:
       format: 0
       dimension: 3
     - stream: 0
-      offset: 24
-      format: 2
-      dimension: 1
+      offset: 0
+      format: 0
+      dimension: 0
     - stream: 0
-      offset: 28
+      offset: 24
       format: 0
       dimension: 2
     - stream: 0
@@ -56,9 +56,9 @@ Mesh:
       format: 0
       dimension: 0
     m_Streams:
-    - channelMask: 15
+    - channelMask: 11
       offset: 0
-      stride: 36
+      stride: 32
       dividerOp: 0
       frequency: 0
     - channelMask: 0
@@ -76,8 +76,8 @@ Mesh:
       stride: 0
       dividerOp: 0
       frequency: 0
-    m_DataSize: 144
-    _typelessdata: 000080bf00000000000080bf000000000000803f00000000ffffffff00000000000000000000803f00000000000080bf000000000000803f00000000ffffffff0000803f00000000000080bf000000000000803f000000000000803f00000000ffffffff000000000000803f0000803f000000000000803f000000000000803f00000000ffffffff0000803f0000803f
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf000000000000803f0000000000000000000000000000003f00000000000000bf000000000000803f000000000000803f00000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f000000000000003f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -135,6 +135,6 @@ Mesh:
       m_BitSize: 0
   m_LocalAABB:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 1, y: 0, z: 1}
+    m_Extent: {x: .5, y: 0, z: .5}
   m_MeshUsageFlags: 0
   m_MeshOptimized: 0

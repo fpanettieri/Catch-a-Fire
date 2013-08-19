@@ -5,7 +5,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Plane1x1W1L1HC
+  m_Name: Target1x1W1L1HC
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2

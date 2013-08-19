@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: RenAndStimpy64
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4eb3a400afab046abb8471a9d746d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMat: {fileID: 0}
+  mUVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mFont:
+    mGlyphs: []
+    mSize: 70
+    mBase: 48
+    mWidth: 256
+    mHeight: 128
+    mSpriteName: RenAndStimpy64
+    mSaved:
+    - index: 32
+      x: 136
+      y: 57
+      width: 0
+      height: 0
+      offsetX: 0
+      offsetY: 49
+      advance: 23
+      channel: 0
+    - index: 49
+      x: 48
+      y: 57
+      width: 16
+      height: 47
+      offsetX: 1
+      offsetY: 2
+      advance: 14
+      channel: 0
+    - index: 50
+      x: 45
+      y: 2
+      width: 39
+      height: 50
+      offsetX: 1
+      offsetY: 2
+      advance: 38
+      channel: 0
+    - index: 51
+      x: 133
+      y: 2
+      width: 52
+      height: 47
+      offsetX: 1
+      offsetY: 2
+      advance: 52
+      channel: 0
+    - index: 52
+      x: 2
+      y: 57
+      width: 44
+      height: 47
+      offsetX: -22
+      offsetY: 2
+      advance: 14
+      channel: 0
+    - index: 53
+      x: 2
+      y: 2
+      width: 41
+      height: 53
+      offsetX: 1
+      offsetY: 2
+      advance: 38
+      channel: 0
+    - index: 54
+      x: 66
+      y: 57
+      width: 33
+      height: 36
+      offsetX: 0
+      offsetY: 13
+      advance: 31
+      channel: 0
+    - index: 55
+      x: 187
+      y: 2
+      width: 52
+      height: 47
+      offsetX: 1
+      offsetY: 2
+      advance: 52
+      channel: 0
+    - index: 56
+      x: 86
+      y: 2
+      width: 45
+      height: 49
+      offsetX: 0
+      offsetY: 1
+      advance: 44
+      channel: 0
+    - index: 57
+      x: 101
+      y: 57
+      width: 33
+      height: 36
+      offsetX: 1
+      offsetY: 13
+      advance: 31
+      channel: 0
+    mSymbols: []
+  mSpacingX: 0
+  mSpacingY: 0
+  mAtlas: {fileID: 11400000, guid: d7188a5ec2f224d3c90e7cf9332955cd, type: 2}
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
