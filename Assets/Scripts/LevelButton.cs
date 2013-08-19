@@ -28,13 +28,13 @@ public class LevelButton : MonoBehaviour
 	
 	private void LockLevel()
 	{
-		m_lock.enabled = true;
+		if(m_lock != null){	m_lock.enabled = true; }
 		collider.enabled = false;
 	}
 	
 	private void UnlockLevel()
 	{
-		m_lock.enabled = false;
+		if(m_lock != null){	m_lock.enabled = false; }
 		collider.enabled = true;
 	}
 	
