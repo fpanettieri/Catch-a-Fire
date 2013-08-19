@@ -1,0 +1,3 @@
+loading.tts = Toca para empezar
+loading.Level1.title = 1. Arrastrar y Soltar
+loading.Level1.tip = Arrastra el matafuegos al objetivo\nantes de que se termine el tiempo.

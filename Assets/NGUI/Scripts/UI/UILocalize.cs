@@ -26,7 +26,7 @@ public class UILocalize : MonoBehaviour
 	/// This function is called by the Localization manager via a broadcast SendMessage.
 	/// </summary>
 
-	void OnLocalize (Localization loc)
+	public void OnLocalize (Localization loc)
 	{
 		if (mLanguage != loc.currentLanguage)
 		{
