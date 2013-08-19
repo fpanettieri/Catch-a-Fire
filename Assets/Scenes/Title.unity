@@ -159,6 +159,62 @@ Prefab:
   m_RootGameObject: {fileID: 1785021840}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &431296321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: c7822bb2eefbc456fb25ed9f0459aeab, type: 2}
+  m_PrefabInternal: {fileID: 1006104761}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 431296322}
+  - 114: {fileID: 431296324}
+  - 114: {fileID: 431296323}
+  m_Layer: 0
+  m_Name: InitLang
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &431296322
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: c7822bb2eefbc456fb25ed9f0459aeab, type: 2}
+  m_PrefabInternal: {fileID: 1006104761}
+  m_GameObject: {fileID: 431296321}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &431296323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: c7822bb2eefbc456fb25ed9f0459aeab,
+    type: 2}
+  m_PrefabInternal: {fileID: 1006104761}
+  m_GameObject: {fileID: 431296321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c069c2fc0c8548dc9d25e6e1aa47396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &431296324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: c7822bb2eefbc456fb25ed9f0459aeab,
+    type: 2}
+  m_PrefabInternal: {fileID: 1006104761}
+  m_GameObject: {fileID: 431296321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4850261060aea044ae098e8e9979e62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingLanguage: en
+  languages:
+  - {fileID: 4900000, guid: 33475af1d9fa0474aa1b5f7c6fc83182, type: 3}
+  - {fileID: 4900000, guid: b294fe618b2da428988e2c0aae9b0da9, type: 3}
 --- !u!1 &786451820
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,6 +368,46 @@ MonoBehaviour:
   callWhenFinished: 
   from: {r: 1, g: 1, b: 1, a: .70588237}
   to: {r: 1, g: 1, b: 1, a: .313725501}
+--- !u!1001 &1006104761
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: c7822bb2eefbc456fb25ed9f0459aeab, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c7822bb2eefbc456fb25ed9f0459aeab, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c7822bb2eefbc456fb25ed9f0459aeab, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c7822bb2eefbc456fb25ed9f0459aeab, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c7822bb2eefbc456fb25ed9f0459aeab, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c7822bb2eefbc456fb25ed9f0459aeab, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c7822bb2eefbc456fb25ed9f0459aeab, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c7822bb2eefbc456fb25ed9f0459aeab, type: 2}
+  m_RootGameObject: {fileID: 431296321}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1114891218
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,6 +945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_musics:
+  - {fileID: 8300000, guid: 4ec6204557c034f8aa71da6258bb3c5d, type: 3}
   - {fileID: 8300000, guid: 4ec6204557c034f8aa71da6258bb3c5d, type: 3}
   - {fileID: 8300000, guid: 4ec6204557c034f8aa71da6258bb3c5d, type: 3}
   - {fileID: 8300000, guid: 80cfd166bd7c843bba320683bfa13abc, type: 3}

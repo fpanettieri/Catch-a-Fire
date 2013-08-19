@@ -3,10 +3,16 @@ using System.Collections;
 
 public class LoadingTip : MonoBehaviour
 {
+	private UILabel m_label;
+	
 	public void Start()
 	{
-		UILocalize localize = GetComponent<UILocalize>();
-		localize.key = "loading." + PlayerPrefs.GetString( "CurrentLevel" )  + ".tip";
-		localize.OnLocalize(Localization.instance);
+		m_label = GetComponent<UILabel>();
+		OnLocalize(Localization.instance);
+	}
+	
+	public void OnLocalize (Localization loc)
+	{
+		m_label.text = Localization.instance.Get("loading." + PlayerPrefs.GetString( "CurrentLevel" )  + ".tip");
 	}
 }

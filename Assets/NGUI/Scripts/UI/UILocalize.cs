@@ -28,29 +28,27 @@ public class UILocalize : MonoBehaviour
 
 	public void OnLocalize (Localization loc)
 	{
-		if (mLanguage != loc.currentLanguage)
+		if (mLanguage == loc.currentLanguage){ return; }
+		UIWidget w = GetComponent<UIWidget>();
+		UILabel lbl = w as UILabel;
+		UISprite sp = w as UISprite;
+
+		// If no localization key has been specified, use the label's text as the key
+		if (string.IsNullOrEmpty(mLanguage) && string.IsNullOrEmpty(key) && lbl != null) key = lbl.text;
+
+		// If we still don't have a key, use the widget's name
+		string val = string.IsNullOrEmpty(key) ? loc.Get(w.name) : loc.Get(key);
+
+		if (lbl != null)
 		{
-			UIWidget w = GetComponent<UIWidget>();
-			UILabel lbl = w as UILabel;
-			UISprite sp = w as UISprite;
-
-			// If no localization key has been specified, use the label's text as the key
-			if (string.IsNullOrEmpty(mLanguage) && string.IsNullOrEmpty(key) && lbl != null) key = lbl.text;
-
-			// If we still don't have a key, use the widget's name
-			string val = string.IsNullOrEmpty(key) ? loc.Get(w.name) : loc.Get(key);
-
-			if (lbl != null)
-			{
-				lbl.text = val;
-			}
-			else if (sp != null)
-			{
-				sp.spriteName = val;
-				sp.MakePixelPerfect();
-			}
-			mLanguage = loc.currentLanguage;
+			lbl.text = val;
 		}
+		else if (sp != null)
+		{
+			sp.spriteName = val;
+			sp.MakePixelPerfect();
+		}
+		mLanguage = loc.currentLanguage;
 	}
 
 	/// <summary>

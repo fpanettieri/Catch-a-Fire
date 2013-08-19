@@ -5,6 +5,6 @@ public class LevelStart : MonoBehaviour
 {
 	public void OnClick()
 	{
-		Application.LoadLevel( PlayerPrefs.GetString( "CurrentLevel" ));
+		Application.LoadLevel( PlayerPrefs.GetString( "CurrentLevel" ));	
 	}
 }
