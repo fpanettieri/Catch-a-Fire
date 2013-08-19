@@ -21,7 +21,7 @@ public class Jukebox : MonoBehaviour
 	
 	public void Start()
 	{
-		OnLevelWasLoaded(0);
+		OnLevelWasLoaded(Application.loadedLevel);
 	}
  
 	public void OnLevelWasLoaded(int _level)
